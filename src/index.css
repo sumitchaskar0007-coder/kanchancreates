@@ -35,9 +35,11 @@ h1,h2,h3,.brand strong{font-family:'Poppins',sans-serif}
 .brand img{display:block;width:190px;height:68px;object-fit:contain}
 .footer .brand img{width:210px;height:76px}
 .contact-logo{display:block;width:min(280px,100%);height:auto;margin-bottom:8px}
+.about-logo{display:block;width:min(260px,100%);height:auto;margin-top:95px}
 .service-card{display:flex;flex-direction:column;justify-content:center}
 .service-card h3{margin:0 0 12px}
 .service-card p{margin:0}
 .site-header{background:rgba(251,248,240,.94)}
 .footer .brand{letter-spacing:0}
 @media(max-width:800px){.brand img{width:164px;height:60px}.footer .brand img{width:180px;height:68px}}
+@media(max-width:800px){.about-logo{margin:45px 0 65px}}
