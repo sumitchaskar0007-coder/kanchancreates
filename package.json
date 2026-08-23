@@ -1,0 +1,21 @@
+{
+  "name": "shreesham-infra",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "@tailwindcss/vite": "^4.3.3",
+    "motion": "^12.43.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.0.0"
+  },
+  "devDependencies": {}
+}
