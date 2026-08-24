@@ -31,7 +31,7 @@ h1,h2,h3,.brand strong{font-family:'Poppins',sans-serif}
 .project-art img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.84;filter:saturate(.82) contrast(1.04);transition:transform .5s ease,opacity .3s ease}.project:hover .project-art img{transform:scale(1.05);opacity:1}.project-art:after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(46,26,18,.12),rgba(46,26,18,.52));pointer-events:none}.project-number,.project-shape{z-index:1}
 .hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}.hero-visual:before{z-index:1;opacity:0}
 
-/* Kanchan identity */
+/* Sai identity */
 .brand img{display:block;width:190px;height:68px;object-fit:contain}
 .footer .brand img{width:210px;height:76px}
 .contact-logo{display:block;width:min(280px,100%);height:auto;margin-bottom:8px}
@@ -43,3 +43,5 @@ h1,h2,h3,.brand strong{font-family:'Poppins',sans-serif}
 .footer .brand{letter-spacing:0}
 @media(max-width:800px){.brand img{width:164px;height:60px}.footer .brand img{width:180px;height:68px}}
 @media(max-width:800px){.about-logo{margin:45px 0 65px}}
+.client-grid{grid-template-columns:repeat(4,1fr)}
+@media(max-width:800px){.client-grid{grid-template-columns:repeat(2,1fr)}}
