@@ -45,3 +45,29 @@ h1,h2,h3,.brand strong{font-family:'Poppins',sans-serif}
 @media(max-width:800px){.about-logo{margin:45px 0 65px}}
 .client-grid{grid-template-columns:repeat(4,1fr)}
 @media(max-width:800px){.client-grid{grid-template-columns:repeat(2,1fr)}}
+
+/* Sai Associates brand palette */
+:root{--ink:#12345a;--paper:#f7fbff;--mist:#e8f1f8;--orange:#39a935;--orange-deep:#23812a;--line:rgba(7,59,117,.18)}
+section[id]{scroll-margin-top:90px}
+body{background:var(--paper)}
+.site-header{background:rgba(247,251,255,.95);border-color:var(--line)}
+.button{background:#39a935}.button:hover{background:#23812a}
+.nav-links a:hover,.text-link:hover,.footer a:hover{color:#39a935}
+.hero-gridline{background:var(--line)}
+.hero-visual{background:#073b75;border:8px solid #fff}
+.hero-visual:before{background:linear-gradient(135deg,rgba(7,59,117,.28),rgba(7,59,117,.05))}
+.section-light{background:#e8f1f8}
+.service-card{background:#fff;border-color:rgba(7,59,117,.16);box-shadow:0 14px 34px rgba(7,59,117,.06)}
+.service-card h3{color:#073b75}.service-card p{color:#45627d}
+.stats{background:#073b75}.stats .stat strong,.stats .stat-lead{color:#fff}.stats .stat small{color:#b8d4ec}
+.clients{background:#f7fbff}.client-logo{border-color:var(--line)}.client-logo span{color:#073b75}.client-logo small{color:#39a935}
+.section-dark,.footer{background:#052b58}.section-dark .section-intro{color:#b8d4ec}
+.project-art{background:#d6e6f2}.project-art:after{background:linear-gradient(135deg,rgba(7,59,117,.04),rgba(7,59,117,.3))}
+.project-meta{border-color:rgba(184,212,236,.35)}
+.project-meta small{color:#72c96c}.project-meta h3{color:#fff}
+.about{background:#fff}.about-copy>p{color:#45627d}.about-columns{border-color:var(--line)}.about-columns small{color:#39a935}
+.contact{background:#073b75}.contact-form input,.contact-form textarea{border-color:#72a5cf}.contact-form input:focus,.contact-form textarea:focus{border-color:#39a935}
+.contact-details span{color:#b8d4ec}.footer{border-top:1px solid rgba(184,212,236,.2)}
+.process{background:#f7fbff}.process-grid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line)}.process-item{padding:28px 26px 10px 0;border-right:1px solid var(--line)}.process-item:not(:first-child){padding-left:26px}.process-item:last-child{border-right:0}.process-item>span{display:block;color:#39a935;font:700 12px 'Inter',sans-serif;letter-spacing:.12em;margin-bottom:35px}.process-item h3{color:#073b75;font-size:20px;margin:0 0 12px}.process-item p{color:#45627d;font-size:13px;line-height:1.7;margin:0;max-width:220px}
+@media(max-width:800px){.hero-visual{border-width:5px}.process-grid{display:block}.process-item,.process-item:not(:first-child){padding:24px 0;border-right:0;border-bottom:1px solid var(--line)}.process-item>span{margin-bottom:18px}.process-item:last-child{border-bottom:0}}
+@media(max-width:800px){section[id]{scroll-margin-top:78px}}
